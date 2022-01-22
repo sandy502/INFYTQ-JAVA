@@ -15,7 +15,6 @@ class Problem1
                 break;
             }
         int j = s.length - 1;
-
         while (j > i)
         {
             if (cash < a)
@@ -62,7 +61,6 @@ class Problem1
         }
         str = new String (s);
     }
-
     public static void main (String[]args)
     {
         Scanner sc = new Scanner (System.in);
@@ -71,7 +69,6 @@ class Problem1
         cash = sc.nextInt ();
         a = sc.nextInt ();
         b = sc.nextInt ();
-
         if (a < b)
         {
             swapfunc ();
